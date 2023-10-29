@@ -3,6 +3,31 @@
   
   
     
+    <entry>
+      <title>Hexo搭建个人博客</title>
+      <link href="/posts/21271.html"/>
+      <url>/posts/21271.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建准备"><a href="#搭建准备" class="headerlink" title="搭建准备"></a>搭建准备</h1><ul><li>准备好一个Github账号</li><li>Node</li><li>Hexo</li><li>Github</li><li>一个文本编辑器（ViscalStudioCode）</li></ul><hr><h1 id="Github账号"><a href="#Github账号" class="headerlink" title="Github账号"></a>Github账号</h1><p>1.首先注册一个Github账号，进入<a href="https://github.com/">GitHub</a>官网官网地址 <a href="https://github.com/">https://github.com/</a></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://bu.dusays.com/2022/05/12/627d2c0449341.webp"/></div></div><p>2.选择右上角的Sign up进行账号注册<br>3.填写自己的邮箱、密码、用户名等信息，然后用邮箱验证即可完成。</p><hr><h1 id="安装node"><a href="#安装node" class="headerlink" title="安装node"></a>安装node</h1><p>1.进入Node的官网，找到和系统相匹配的版本否则会出现安装问题。<br>Node的下在地址：<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/blog-construct/2.png"/></div></div><p>在下载完后基本上就是一直下一步了，具体步骤可以参考Node.js 安装教程,如果还能遇到什么问题基本上百度就能解决。<br>2.下载后安装，安装的目录可以使用默认目录【C:&#x2F;Program Files&#x2F;nodejs&#x2F;】，也可以自定义路径。<br>这个环境路径切换坑也很多，如果大家C盘空间足够可以直接装C盘，如果想切换其他盘或者把环境遍历切换到自定义路径也可以，具体教程百度(不过坑比较多就是了)!</p><hr><h1 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h1><p>进入[Git官网]，官网地址为：<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>一般就是下载好自己对应的版本后一直下一步就好了<br>Git的安装教程自行查找：Git 安装教程</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/blog-construct/3.png"/></div></div><hr><h1 id="检查node与Git是否安装成功"><a href="#检查node与Git是否安装成功" class="headerlink" title="检查node与Git是否安装成功"></a>检查node与Git是否安装成功</h1><p>同时按下 Win 键和 R 键打开运行窗口,输入 cmd ，然后输入以下命令，有相应版本信息显示则安装成功，若不正确可以卸载软件重新安装。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><hr><h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><p>在自己的电脑中创建一个想要用来存放博客代码的地方（如：我的文件夹为：D\saon.top）博客相关文件将储存在此文件夹下，在该文件夹下右键鼠标，点击 Git Bash Here，输入以下 npm 命令即可安装,第一次可能需要久一点输入命令后等一等，再输入第二条命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><p>这个命令表示安装 hexo 的脚手架，如图所示即为安装成功</p><h3 id="Hexo初始化配置"><a href="#Hexo初始化配置" class="headerlink" title="Hexo初始化配置"></a>Hexo初始化配置</h3><p> 逐个输入命令行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>登录 <a href="http://localhost:4000/">http://localhost:4000/</a> 查看效果：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/blog-construct/11.png"/></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
     
     
     <entry>
